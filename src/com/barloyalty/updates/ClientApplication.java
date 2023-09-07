@@ -1,7 +1,7 @@
 package com.barloyalty.updates;
 
 public class ClientApplication implements IClientApplication {
-    private IUpdateServer updateServer;
+    private final IUpdateServer updateServer;
 
     public ClientApplication(IUpdateServer updateServer) {
         this.updateServer = updateServer;

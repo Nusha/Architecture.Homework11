@@ -3,8 +3,8 @@ package com.barloyalty.updates;
 
 
 public class Version implements Comparable<Version> {
-    private String versionNumber;
-    private String releaseDate;
+    private final String versionNumber;
+    private final String releaseDate;
 
     public Version(String versionNumber, String releaseDate) {
         this.versionNumber = versionNumber;

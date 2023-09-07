@@ -1,7 +1,7 @@
 package com.barloyalty.updates;
 
 public class UpdateServer implements IUpdateServer {
-    private IVersionDatabase versionDatabase;
+    private final IVersionDatabase versionDatabase;
     private Version currentVersion;
 
     public UpdateServer(IVersionDatabase versionDatabase) {
